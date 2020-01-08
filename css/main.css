@@ -1,5 +1,36 @@
 body{
+    width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 0;
+}
+/* canvas{
+    background: #061122;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding-top: 50px;
+} */
+canvas {
+    background: #061122;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding-top: 50px;
+}
+
+.intro-section {
     background-color: #061122;
+    
+    box-sizing: border-box;
+}
+
+.project-section {
+    background-color: orange;
+    width: 100%;
+    height: 100vh;
+
 }
