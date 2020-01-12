@@ -1,0 +1,100 @@
+
+.text-area, .text-area-2{
+  font-size: 3.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  text-shadow:0 0 2px rgb(61, 255, 197),
+  0 0 30px rgb(61, 255, 197),
+  0px 0px 5px rgb(61, 255, 197),
+  0 0 150px rgb(61, 255, 197);
+  color:rgb(61, 255, 197);
+  animation-duration: 5s;
+  animation-fill-mode: both;   
+}
+.text-area-2{
+  padding-left: 10px;
+  animation-delay: 3.5s;
+}
+.flip-container{
+  display: inline-flex;
+  flex-direction: row;  
+  font-size: 35px;
+}
+
+.flip-text {
+  position: relative;
+  width: 28px;
+  height: 33px;   
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  animation-name: flip;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-duration: 8.0s;
+  
+}
+
+.text-area:hover .flip-text {
+  transform: rotateY(180deg);
+}
+
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  text-align: center;
+}
+.flip-back {
+  transform: rotateY(180deg);
+
+}
+#char2{
+  animation-delay: 5.07s;
+  width: 10px;
+  padding-right: 2px;
+}
+#char3{
+  animation-delay: 5.14s;
+    width: 20px;
+}
+#char4{
+  animation-delay: 5.21s;
+    width: 20px;
+}
+#char5{
+  animation-delay: 5.28s;
+  width: 20px;
+}
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}  
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+ }
+ 100% {
+    opacity: 1;
+ }
+}
+@keyframes flip {
+  50% {
+    transform: rotateY(180deg);
+  }
+  /* 75% {
+    transform: rotateY(180deg);
+  } */
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  } 
+
+.fadeIn {
+  animation-name: fadeIn;
+}

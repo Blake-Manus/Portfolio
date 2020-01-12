@@ -2,11 +2,12 @@ var canvas = document.getElementById("bg-canvas"),
 context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-lineColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+// lineColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+lineColor = '#FF0068';
 
 var pointsArr = [], // Array of points
     FPS = 60, // Frames per second
-    numPts = 200; // Number of points
+    numPts = 230; // Number of points
 
 for (var i = 0; i < numPts; i++) { //Populate Point Array
   pointsArr.push({
