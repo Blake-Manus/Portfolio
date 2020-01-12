@@ -33,10 +33,6 @@
   
 }
 
-.text-area:hover .flip-text {
-  transform: rotateY(180deg);
-}
-
 .flip-front, .flip-back {
   position: absolute;
   width: 100%;
@@ -48,20 +44,20 @@
 
 }
 #char2{
-  animation-delay: 5.07s;
+  animation-delay: 5.05s;
   width: 10px;
   padding-right: 2px;
 }
 #char3{
-  animation-delay: 5.14s;
+  animation-delay: 5.15s;
     width: 20px;
 }
 #char4{
-  animation-delay: 5.21s;
+  animation-delay: 5.25s;
     width: 20px;
 }
 #char5{
-  animation-delay: 5.28s;
+  animation-delay: 5.35s;
   width: 20px;
 }
 
