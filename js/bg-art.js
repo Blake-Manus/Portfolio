@@ -11,7 +11,7 @@ var pointsArr = [], // Array of points
 
 for (var i = 0; i < numPts; i++) { //Populate Point Array
   pointsArr.push({
-    radius: Math.random() * 1 + 1,
+    radius: Math.random() * 1 + 1, //Point Size
     xPos: Math.random() * window.innerWidth,
     yPos: Math.random() * window.innerHeight,
     ptColor: '#'+(Math.random()*0xFFFFFF<<0).toString(16),
@@ -45,7 +45,7 @@ function drawToCanvas() {
       }
     }
   }
-  context.lineWidth = 0.05;
+  context.lineWidth = 0.08;
   context.strokeStyle = lineColor;
   context.stroke();
 }
