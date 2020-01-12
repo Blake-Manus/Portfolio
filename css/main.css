@@ -4,6 +4,7 @@ html{
     margin: 0px;
     padding: 0px;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body{
     width: 100%;
@@ -56,16 +57,24 @@ canvas {
     color: white;
 }
 
-/* .project-section {
-    background-color: orange;
+.about-section {
+    background: rgb(6,17,34);
+    background: linear-gradient(180deg, rgba(6,17,34,1) 10%, rgba(41,85,135,1) 100%);
     width: 100%;
     height: 100vh;
 
-} */
+} 
+.project-section {
+  width: 100%;
+  height: 100vh;
+  background: rgb(41,85,135);
+  background: linear-gradient(180deg, rgba(41,85,135,1) 10%, rgba(165,180,196,1) 100%);
+}
 .text-container {
     margin: 0;
     position: absolute;
     top: 40%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%) 
+}

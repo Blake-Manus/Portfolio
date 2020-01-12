@@ -35,3 +35,27 @@
     text-decoration: none;
     text-decoration-color: none;
 }
+.nav-btn-area{
+    border-radius: 50%;
+    background-color: orangered;
+    height: 40px;
+    width: 40px;
+    z-index: 9999;
+    position: absolute;
+    color: orange;
+    font-size: 100px;
+
+}
+.next-section-btn{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    left: 50%;
+    bottom:3%;
+    vertical-align: bottom;
+    margin-left: -40px;
+}
