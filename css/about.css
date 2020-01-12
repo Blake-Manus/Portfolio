@@ -16,7 +16,6 @@
 }
 
 .about-professional{
-    border-radius: 12%;
     margin-left: 5%;
     width: 40%;
     height: 90%;
@@ -25,22 +24,33 @@
 .skills-area{
     width: 100%;
     height: 80%;
-    border-radius: 12%;
     color: white;
 }
 .resume-area{
-    width: 70%;
-    height: 15%;
-    margin-top: 5%;
-    margin-left: 15%;
-    background-color: rgb(233, 233, 233);
-    border-radius: 8%;
+    width: 100%;
+    height: 20%;
+    margin-top: 8%;
+    color:white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow:   -1px -1px 0 rgba(28,28,28,1),  
+    1px -1px 0 rgba(28,28,28,1),
+    -1px 1px 0 rgba(28,28,28,1),
+     1px 1px 0 rgba(28,28,28,1),
+     1px 1px 10px #141414;
+     color:whitesmoke;
+     text-decoration: underline;
 }
 #personal-pic{
     margin-left: 30%;
     margin-top: 8%;
     width: 40%;
 
+}
+#resume-link:visited {
+    text-decoration: underline;
+    color:whitesmoke;
 }
 .about-personal > h1{
     font-size: 2.2em;
@@ -88,5 +98,66 @@
     font-weight: bold;
 }
 .skill-list > li{
-    padding-bottom: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+#front-end{
+    text-shadow:0 0 2px rgb(140, 40, 233);
+    color:rgb(140, 40, 233);
+    animation-duration: 5s;
+    animation-fill-mode: both;  
+}
+#design{
+    text-shadow:0 0 2px rgb(233, 161, 29);
+    color:rgb(233, 161, 29);
+    animation-duration: 5s;
+    animation-fill-mode: both;   
+}
+#software-eng{
+    text-shadow:0 0 2px rgb(228, 24, 51);
+    color:rgb(228, 24, 51);
+    animation-duration: 5s;
+    animation-fill-mode: both;     
+}
+#learning{
+    text-shadow:0 0 2px rgb(35, 194, 62);
+    color:rgb(35, 194, 62);
+    animation-duration: 5s;
+    animation-fill-mode: both;      
+}
+
+.fa-laptop-code{
+    color:rgb(160, 59, 255);
+}
+.fa-palette{
+    color:rgb(252, 180, 47);
+}
+
+.fa-tools{
+    color:rgb(228, 24, 51);    
+}
+.fa-book-reader{
+    color:rgb(21, 212, 53); 
+}
+.front-end-list > li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.design-list > li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.software-list > li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.learning-list > li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
 }

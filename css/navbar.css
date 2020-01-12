@@ -47,7 +47,7 @@
 
 }
 .next-section-btn{
-    background-color: green;
+    background-color: rgba(39, 39, 39, 0.26);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -58,4 +58,9 @@
     bottom:3%;
     vertical-align: bottom;
     margin-left: -40px;
+    border: 2px solid rgba(105, 105, 105, 0.781);
+}
+.fa-angle-double-down{
+    color: rgb(61, 255, 197);
+    font-size: 1.5em;
 }
