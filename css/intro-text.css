@@ -1,7 +1,8 @@
 
 .text-area, .text-area-2{
   font-size: 3.5em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow:0 0 2px rgb(61, 255, 197),
   0 0 30px rgb(61, 255, 197),
   0px 0px 5px rgb(61, 255, 197),
@@ -23,7 +24,7 @@
 .flip-text {
   position: relative;
   width: 28px;
-  height: 33px;   
+  height: 35px;   
   transition: transform 0.6s;
   transform-style: preserve-3d;
   animation-name: flip;
@@ -31,10 +32,6 @@
   animation-delay: 5s;
   animation-duration: 8.0s;
   
-}
-
-.text-area:hover .flip-text {
-  transform: rotateY(180deg);
 }
 
 .flip-front, .flip-back {
@@ -48,20 +45,20 @@
 
 }
 #char2{
-  animation-delay: 5.07s;
+  animation-delay: 5.05s;
   width: 10px;
   padding-right: 2px;
 }
 #char3{
-  animation-delay: 5.14s;
+  animation-delay: 5.15s;
     width: 20px;
 }
 #char4{
-  animation-delay: 5.21s;
+  animation-delay: 5.25s;
     width: 20px;
 }
 #char5{
-  animation-delay: 5.28s;
+  animation-delay: 5.35s;
   width: 20px;
 }
 

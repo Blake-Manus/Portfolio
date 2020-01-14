@@ -5,16 +5,22 @@
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/navbar.css">
         <link rel="stylesheet" href="./css/intro-text.css">
+        <link rel="stylesheet" href="./css/about.css">
+        <script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
     <body>
 
         <div class="navbar-main">
-            <a href="#" className="nav-home" >Home</a>
-            <a href="#" className="nav-about" >About</a>
-            <a href="#" className="nav-projects">Projects</a>
-            <a href="#" className="nav-contact">Contact</a>
+            <a href="#intro" className="nav-home" >Home</a>
+            <a href="#about" className="nav-about" >About</a>
+            <a href="#projects" className="nav-projects">Projects</a>
+            <a href="#contact" className="nav-contact">Contact</a>
         </div>
-        <section class="intro-section">
+        <div id="arrow">
+            <a class="next-section-btn"><i class="fas fa-angle-double-down fa-3x"></i></a>
+        </div>
+        <section class="intro-section" id="intro">
                 <canvas class="bg-animation-canvas" id="bg-canvas"></canvas>  
                 <div class="text-container">  
                     <div class="text-area fadeInLeft"> I am  
@@ -45,8 +51,74 @@
                     <p class="text-area-2 fadeIn"> A web developer</p>
                 </div>
         </section>
-        <section class="project-section" id="project-id">
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-personal">
+                    <img src="https://via.placeholder.com/150" id="personal-pic">
+                    <h1> A little bit about me</h1>
+                    <hr>
+                    <p class="about-me">
+                        My name is Blake Manus and I'm a senior at the University of Georgia. 
+                        I am currently persuing a career in Software Development as a front-end developer.
+                    </p>
+                </div>
+
+                <div class="about-professional">
+                    <div class="skills-area">
+                        <h1> What I love to do</h1>
+                        <hr>
+                        <ul class="skill-list fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-laptop-code fa-lg"></i></span>
+                                <span class="list-header" id="front-end">Front-End Development</span>
+                                <ul class="front-end-list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>Bootstrap</li>
+                                    <li>ReactJS</li>
+                                </ul>
+                            </li>
+                            <li><span class="fa-li"><i class="fas fa-palette fa-lg"></i></span>
+                                <span class="list-header" id="design">Design</span>
+                                <ul class="design-list">
+                                    <li>UI/UX</li>
+                                    <li>Mobile</li>
+                                    <li>Apps</li>
+                                    <li>Web</li>
+                                </ul>
+                            </li>
+                            <li><span class="fa-li"><i class="fas fa-tools fa-lg"></i></span>
+                                <span class="list-header" id="software-eng">Software Engineering</span>
+                                <ul class="software-list">
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>C</li>
+                                    <li>PHP</li>
+                                    <li>SQL</li>
+                                </ul>                            
+                            </li>
+                            <li><span class="fa-li"><i class="fas fa-book-reader fa-lg"></i></span>
+                                <span class="list-header" id="learning">Learning</span>
+                                <ul class="learning-list">
+                                    <li>Security</li>
+                                    <li>Optimization</li>
+                                    <li>Frameworks</li>
+                                    <li>Responsiveness</li>
+                                    <li>Maintainability</li>
+                                </ul> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume-area">
+                        <a href="#" id="resume-link">View Full Resume</a>
+                    </div>
+                </div>
+            </div>
         </section>
+        <section class="project-section" id="projects"></section>
+        <section class="contact-section" id="contact"></section>
     </body>
 </html>
 <script src="./js/bg-art.js"></script>
+<script src="./js/scroll.js"></script>
+<script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>

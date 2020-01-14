@@ -35,3 +35,33 @@
     text-decoration: none;
     text-decoration-color: none;
 }
+.nav-btn-area{
+    border-radius: 50%;
+    background-color: orangered;
+    height: 40px;
+    width: 40px;
+    z-index: 9999;
+    position: absolute;
+    color: orange;
+    font-size: 100px;
+
+}
+.next-section-btn{
+    background-color: rgba(39, 39, 39, 0.26);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    left: 50%;
+    bottom:3%;
+    vertical-align: bottom;
+    margin-left: -40px;
+    border: 2px solid rgba(105, 105, 105, 0.781);
+}
+.fa-angle-double-down{
+    color: rgb(61, 255, 197);
+    font-size: 1.7em;
+    margin-top: 15%;
+}
