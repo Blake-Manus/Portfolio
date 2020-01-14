@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/intro-text.css">
         <link rel="stylesheet" href="./css/about.css">
         <script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
     <body>
 
@@ -16,7 +17,9 @@
             <a href="#projects" className="nav-projects">Projects</a>
             <a href="#contact" className="nav-contact">Contact</a>
         </div>
-        <button class="next-section-btn"><i class="fas fa-angle-double-down"></i></button>
+        <div id="arrow">
+            <a class="next-section-btn"><i class="fas fa-angle-double-down fa-3x"></i></a>
+        </div>
         <section class="intro-section" id="intro">
                 <canvas class="bg-animation-canvas" id="bg-canvas"></canvas>  
                 <div class="text-container">  
@@ -66,7 +69,7 @@
                         <hr>
                         <ul class="skill-list fa-ul">
                             <li><span class="fa-li"><i class="fas fa-laptop-code fa-lg"></i></span>
-                                <span class="list-header" id="front-end">Font-End Development</span>
+                                <span class="list-header" id="front-end">Front-End Development</span>
                                 <ul class="front-end-list">
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -82,7 +85,6 @@
                                     <li>Mobile</li>
                                     <li>Apps</li>
                                     <li>Web</li>
-                                    <li>Logos</li>
                                 </ul>
                             </li>
                             <li><span class="fa-li"><i class="fas fa-tools fa-lg"></i></span>
@@ -118,3 +120,5 @@
     </body>
 </html>
 <script src="./js/bg-art.js"></script>
+<script src="./js/scroll.js"></script>
+<script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>
