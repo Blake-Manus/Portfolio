@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 // lineColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
 // lineColor = '#FF0068';
-lineColor = '#000000';
+ lineColor = '#000000';
 
 var pointsArr = [], // Array of points
     FPS = 60, // Frames per second
