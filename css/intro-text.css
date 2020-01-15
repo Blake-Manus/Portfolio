@@ -1,8 +1,6 @@
 
 .text-area, .text-area-2{
   font-size: 3.5em;
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow:0 0 2px rgb(61, 255, 197),
   0 0 30px rgb(61, 255, 197),
   0px 0px 5px rgb(61, 255, 197),
