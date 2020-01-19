@@ -1,188 +1,400 @@
-.project-container{
-    display: flex;
-    width: 75%;
-    height: 75%;
-    margin: auto;
-    padding-top: 100px;
+#carousel {
+  padding-top: 10%;
+  padding-bottom: auto;
 }
 
-.item{
-    border: 1px solid #E1E1E1;
-    border-radius: 5px;
-    background: #FFF;
+.project-container {
+  width: 75%;
+  height: 75%;
+  margin: auto;
 }
-.item .movie-Poster img{
-    margin: 0 auto;
-    width: 100%;
+
+.item {
+  /* border: 5px solid pink; */
+  border-radius: 5px;
+  /* background: #fff; */
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  padding: 1%;
+  padding-top: 0;
+  text-align: center;
 }
-.item .slide-info{
-    padding: 10px;
-    border-radius: 0 0 5px 5px;
+.project-name {
+  font-size: 1.8rem;
 }
-.item:hover .slide-info{
-    background-color: #dbeeee !important;
+.viewInfo {
+  font-size: 1.7rem;
 }
-.item .price{
-    float: left;
-    margin-top: 5px;
+.item .movie-Poster img {
+  margin-left: 0.75%;
+  margin-right: 1%;
+  /* margin-top: 0.5%; */
+  margin-bottom: 0;
+  width: 99%;
 }
-.item .price h5{
-    line-height: 20px;
-    margin: 0;
+.item .slide-info {
+  padding: 10px;
+
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  margin-left: 0.75%;
+  margin-right: 1%;
+  margin-bottom: 0.5%;
+  width: 99%;
 }
-.runTime{
-    color: #219FD1;
+.item:hover .slide-info {
+  background-color: #dbeeee !important;
 }
-.item .slide-info .rating{
-    color: #777;
+/* .item .price {
+  float: left;
+  margin-top: 5px;
 }
-.item .rating{
-    float: left;
-    font-size: 17px;
-    text-align: right;
-    line-height: 52px;
-    margin-bottom: 10px;
-    height: 52px;
+.item .price h5 {
+  line-height: 20px;
+  margin: 0;
+} */
+.runTime {
+  color: #219fd1;
 }
-.item .btn-add{
-    width: 50%;
-    float: left;
-    border-right: 1px solid #E1E1E1;
+.item .slide-info .rating {
+  color: #777;
 }
-.item .btn-details{
-    width: 50%;
-    float: left;
+.item .rating {
+  float: left;
+  font-size: 17px;
+  text-align: right;
+  line-height: 52px;
+  margin-bottom: 10px;
+  height: 52px;
 }
-.controls{
-    margin-top: 20px;
+.item .btn-add {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #e1e1e1;
 }
-.btn-info,.btn-info:visited,.btn-info:hover{
-	background-color: #21BBD8;
-	border-color: #21BBD8;
+.item .btn-details {
+  width: 50%;
+  float: left;
 }
-.btn-info{
-	margin-left:5px;
+.controls {
+  margin-top: 20px;
 }
-.slide-info:hover{
-	background-color: #dbeeee !important;
+.btn-info,
+.btn-info:visited,
+.btn-info:hover {
+  background-color: #21bbd8;
+  border-color: #21bbd8;
 }
-.AddCart{
-	margin: 0px;
-	padding:5px;
-	border-radius:2px;
-	margin-right:10px;
+.btn-info {
+  margin-left: 5px;
+}
+.slide-info:hover {
+  background-color: #dbeeee !important;
+}
+.AddCart {
+  margin: 0px;
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 10px;
 }
 .review {
-	margin-bottom: 5px;
-	padding-top:5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
 }
 
-.carousel-inner{
-    margin-left: auto;
-    margin-right: auto;
+.carousel-inner {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
     code by Iatek LLC 2018 - CC 2.0 License - Attribution required
 */
 @media (min-width: 768px) and (max-width: 991px) {
-
-    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -33.3333%; 
-        display: block;
-        visibility: visible;
-    }
+  .carousel-inner
+    .active.col-md-4.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    display: block;
+    visibility: visible;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-
-    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -50%; 
-        display: block;
-        visibility: visible;
-    }
+  .carousel-inner
+    .active.col-sm-6.carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    visibility: visible;
+  }
 }
 @media (min-width: 576px) {
-    .carousel-item {
-        margin-right: 0;
-    }
+  .carousel-item {
+    margin-right: 0;
+  }
 
-    .carousel-inner .active + .carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
-        transition: none;
-    }
-    .carousel-inner .carousel-item-next {
-        position: relative;
-        transform: translate3d(0, 0, 0);
-    }
+  .carousel-inner .active + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
 
-    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
 
-    .carousel-inner .carousel-item-prev.carousel-item-right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        visibility: visible;
-    }
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    visibility: visible;
+  }
 
-    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
-        transform: translate3d(100%, 0, 0);
-    }
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+    transform: translate3d(100%, 0, 0);
+  }
 }
 /* MD */
 @media (min-width: 768px) {
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    transform: translate3d(0, 0, 0);
+  }
 
-    .carousel-inner .active + .carousel-item + .carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
-        transition: none;
-    }
-    .carousel-inner .carousel-item-next {
-        transform: translate3d(0, 0, 0);
-    }
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transform: translate3d(-100%, 0, 0);
+  }
 
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
-        transform: translate3d(-100%, 0, 0);
-    }
-
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
-        transform: translate3d(100%, 0, 0);
-    }
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transform: translate3d(100%, 0, 0);
+  }
 }
 
 @media (min-width: 991px) {
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
 
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-        transition: none;
-    }
+  .carousel-inner
+    .active.col-lg-3.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    display: block;
+  }
 
-    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -25%;  
-        display: block;
-    }
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transform: translate3d(100%, 0, 0);
+  }
+}
 
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        transform: translate3d(100%, 0, 0);
-    }
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.575);
+  z-index: 2;
+}
+.overlay-container {
+  position: absolute;
+  background-color: rgb(24, 24, 24);
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  left: 20%;
+  top: 10%;
+  border-radius: 5%;
+}
+.overlay-info {
+  display: flex;
+  margin-top: 5%;
+  height: 85%;
+}
+.overlay-left {
+  width: 40%;
+  margin-left: 5%;
+  color: white;
+}
+.overlay-right {
+  width: 50%;
+  margin-right: 5%;
+  color: white;
+}
+.conduct-msg {
+  text-align: center;
+  margin-top: 1%;
+  vertical-align: bottom;
+  color: red;
+}
+
+.overlay-slideshow {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  text-align: center;
+}
+/* Hide the images by default */
+.overlay-slide {
+  display: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Next & previous buttons */
+.overlay-prev,
+.overlay-next {
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.overlay-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.fa-angle-left,
+.fa-angle-right {
+  color: gray;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.overlay-prev:hover .fa-angle-left,
+.overlay-next:hover .fa-angle-right {
+  color: white;
+  cursor: pointer;
+}
+
+.demo-link {
+  background-color: purple;
+  text-align: center;
+  width: 40%;
+  height: 7%;
+  border-radius: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  text-align: center;
+  cursor: pointer;
+}
+.github-link {
+  background-color: purple;
+  text-align: center;
+  width: 40%;
+  height: 7%;
+  border-radius: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  text-align: center;
+  cursor: pointer;
+}
+.project-description p {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.4rem;
+}
+
+.overlay-right p {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.4rem;
+}
+
+.tech-used-list > li {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 1.1rem;
+}
+
+.learning-outcome-list > li {
+  font-size: 1.4rem;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.exit-btn {
+  background-color: red;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20%;
+  font-size: 1.5rem;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+  text-align: center;
+}
+.exit-btn:hover {
+  background-color: rgb(255, 77, 77);
+  cursor: pointer;
 }
