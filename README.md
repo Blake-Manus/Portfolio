@@ -1,2 +1,3 @@
 # Portfolio
-My Portfolio Website
+
+This is the online portfolio of Ricky B. Manus.
