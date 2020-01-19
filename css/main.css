@@ -1,81 +1,84 @@
-html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-size: 10px;
-    scroll-behavior: smooth;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: visible;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
 }
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: rgb(164, 208, 219); 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(69, 80, 94); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(112, 139, 165); 
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(164, 208, 219);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(69, 80, 94);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 139, 165);
+}
 canvas {
-    /* background: #061122;
+  /* background: #061122;
     display: block;
     position: absolute; */
-    background: #061122;
-    display: block;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: calc(100% - 53px);
-    padding-top: 53px;
+  background: #061122;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 53px);
+  padding-top: 53px;
 }
 
 .intro-section {
-    background-color: #061122;
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    height: 100%;
+  background-color: #061122;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
 
-    color: white;
+  color: white;
 }
 
 .about-section {
-  background: rgb(6,17,34);
-  background: linear-gradient(180deg, rgba(6,17,34,1) 4%, rgba(28,28,28,1) 100%);
-    width: 100%;
-    height: 100vh;
-
-} 
+  background: rgb(6, 17, 34);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 17, 34, 1) 4%,
+    rgba(28, 28, 28, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+}
 .project-section {
   width: 100%;
   height: 100vh;
-  background-color: rgba(28,28,28,1);
+  background-color: rgba(28, 28, 28, 1);
 }
 .text-container {
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
