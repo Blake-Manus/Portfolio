@@ -1,0 +1,76 @@
+.contact-container {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  margin-top: 1%;
+  color: whitesmoke;
+}
+.contactInfo-area {
+  width: 25%;
+}
+.contactInfo-area > ul {
+  font-size: 1.5rem;
+}
+.media-area {
+  width: 15%;
+}
+.media-area > h1 {
+  text-align: center;
+}
+.chat-area {
+  width: 40%;
+  margin-left: 5%;
+}
+.chat-area > h1 {
+  text-align: center;
+}
+.contact-text-alt {
+  color: rgb(255, 94, 0);
+}
+.mail-form {
+  display: flex;
+}
+.mail-left {
+  margin: 1%;
+  width: 40%;
+  font-size: 1.2rem;
+}
+.mail-left input[type="text"] {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.3rem;
+  width: 100%;
+  background-color: whitesmoke;
+  outline: none;
+}
+.mail-right {
+  margin: 1%;
+  font-size: 1.2rem;
+}
+.mail-right > textarea {
+  padding: 2%;
+  width: 100%;
+  height: 80%;
+  outline: none;
+  resize: none;
+  background-color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+input[type="text"],
+textarea {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  /* padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; */
+  border: 1px solid #dddddd;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgb(255, 94, 0);
+  /* padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; */
+  border: 1px solid rgba(255, 94, 0, 0.349);
+}

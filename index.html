@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/intro-text.css">
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/carousel.css">
+        <link rel="stylesheet" href="./css/contact.css">
         <script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -114,7 +115,7 @@
                         </ul>
                     </div>
                     <div class="resume-area">
-                        <a href="#" id="resume-link">View Full Resume</a>
+                        <a href="https://drive.google.com/open?id=1Y_HiGfwGHdY9wrLPWaO4meXpTeyi_wuI" id="resume-link">View Full Resume</a>
                     </div>
                 </div>
             </div>
@@ -623,7 +624,47 @@
                 </div>
             </div> 
         </section>
-        <section class="contact-section" id="contact"></section>
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="contactInfo-area">
+                    <h1>Contact <span class="contact-text-alt">Info</span></h1>
+                    <ul>
+                        <li><h2>Ricky Blake Manus</h2></li>
+                        <li><span>Phone: </span> 706-994-7597</li>
+                        <li><span>Email: </span>RickyBManus@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="media-area">
+                    <h1>Lets <span class="contact-text-alt">Connect</span></h1>
+                    <ul>
+                        <li><a href="https://www.instagram.com/blakemanus96/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ricky-manus-9a6742196/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://codepen.io/rbm41574"><i class="fab fa-codepen"></i></a></li>
+                        <li><a href="https://github.com/rbm41574"><i class="fab fa-github-square"></i></a></li>
+                        <li><a href="https://dribbble.com/rbm41574"><i class="fab fa-dribbble-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="chat-area">
+                    <h1>Lets <span class="contact-text-alt">Chat</span></h1>
+                    <form class="mail-form">
+                        <div class="mail-left">
+                            Name:<br>
+                            <input type="text" id="name" name="name"><br>
+                            Email:<br>
+                            <input type="text" id="email" name="email"><br>
+                            Subject:<br>
+                            <input type="text" id="subject" name="subject"><br>
+                            <button type="submit" class="btn btn-primary" onclick="sendMail()">Submit</button>
+                        </div>
+                        <div class="mail-right">
+                            Comment:<br>
+                            <textarea placeholder="Let me know what you think!" rows="6" cols="50"></textarea>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
     </body>
 </html>
 <script src="./js/bg-art.js"></script>
@@ -719,6 +760,15 @@
       }
       slides[slideIndex-1].style.display = "block";
     }
-    </script>
+</script>
+<script>
+    function sendMail() {
+    var name = $('#contact #name').val();
+    var email = $('#contact #email').val();
+    var message = $('#contact textarea').val();
+    var subject = $('#contact #subject').val();
+    window.location.href = 'mailto:RickyBManus@gmail.com?subject=' + subject + '&body='+name + '%0d%0a' + email + '%0d%0a%0d%0a' + message;
+    };
+</script>
         
         
