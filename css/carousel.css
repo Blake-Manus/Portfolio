@@ -171,7 +171,7 @@
     display: block;
     visibility: visible;
   }
-
+ 
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
   .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
