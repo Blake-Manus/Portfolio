@@ -12,19 +12,19 @@
 .item {
   /* border: 5px solid pink; */
   border-radius: 5px;
-  /* background: #fff; */
-  border-width: 3px;
+  background: rgb(0, 0, 0);
+  /* border-width: 3px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%; */
   padding: 1%;
-  padding-top: 0;
+  padding-top: 2%;
   text-align: center;
 }
 .project-name {
   font-size: 1.8rem;
 }
 .viewInfo {
-  font-size: 1.7rem;
+  font-size: 1.4rem !important;
 }
 .item .movie-Poster img {
   margin-left: 0.75%;
@@ -37,70 +37,25 @@
   padding: 10px;
 
   border-radius: 0 0 5px 5px;
-  background-color: white;
+  background-color: rgb(19, 19, 20);
+  color: rgb(229, 226, 226);
   margin-left: 0.75%;
   margin-right: 1%;
   margin-bottom: 0.5%;
   width: 99%;
 }
 .item:hover .slide-info {
-  background-color: #dbeeee !important;
+  background-color: #101f2d !important;
 }
-/* .item .price {
-  float: left;
-  margin-top: 5px;
+.viewInfo {
+  background-color: rgb(207, 76, 0);
 }
-.item .price h5 {
-  line-height: 20px;
-  margin: 0;
-} */
-.runTime {
-  color: #219fd1;
+.viewInfo:hover {
+  background-color: rgb(255, 94, 0);
 }
-.item .slide-info .rating {
-  color: #777;
-}
-.item .rating {
-  float: left;
-  font-size: 17px;
-  text-align: right;
-  line-height: 52px;
-  margin-bottom: 10px;
-  height: 52px;
-}
-.item .btn-add {
-  width: 50%;
-  float: left;
-  border-right: 1px solid #e1e1e1;
-}
-.item .btn-details {
-  width: 50%;
-  float: left;
-}
+
 .controls {
   margin-top: 20px;
-}
-.btn-info,
-.btn-info:visited,
-.btn-info:hover {
-  background-color: #21bbd8;
-  border-color: #21bbd8;
-}
-.btn-info {
-  margin-left: 5px;
-}
-.slide-info:hover {
-  background-color: #dbeeee !important;
-}
-.AddCart {
-  margin: 0px;
-  padding: 5px;
-  border-radius: 2px;
-  margin-right: 10px;
-}
-.review {
-  margin-bottom: 5px;
-  padding-top: 5px;
 }
 
 .carousel-inner {
@@ -108,8 +63,7 @@
   margin-right: auto;
 }
 
-/*
-    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+/* atbr
 */
 @media (min-width: 768px) and (max-width: 991px) {
   .carousel-inner
@@ -171,7 +125,7 @@
     display: block;
     visibility: visible;
   }
- 
+
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
   .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
@@ -251,7 +205,7 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.575);
-  z-index: 4;
+  z-index: 7;
 }
 .overlay-container {
   position: absolute;
@@ -330,11 +284,11 @@
 /* On hover, add a black background color with a little bit see-through */
 .overlay-prev:hover .fa-angle-left,
 .overlay-next:hover .fa-angle-right {
-  color: white;
+  color: rgb(255, 94, 0);
   cursor: pointer;
 }
 
-.demo-link {
+/* .demo-link {
   background-color: purple;
   text-align: center;
   width: 40%;
@@ -345,9 +299,9 @@
   margin-top: 2%;
   text-align: center;
   cursor: pointer;
-}
-.github-link {
-  background-color: purple;
+} */
+.github-link,
+.demo-link {
   text-align: center;
   width: 40%;
   height: 7%;
@@ -357,6 +311,24 @@
   margin-top: 5%;
   text-align: center;
   cursor: pointer;
+  font-size: 1.5rem;
+}
+.github-link a,
+.github-link a:hover,
+.demo-link a,
+.demo-link a:hover {
+  color: white;
+  text-decoration: none;
+}
+.github-link:hover,
+.demo-link:hover {
+  background-color: rgba(255, 94, 0, 0.562);
+  border: 1px solid rgb(255, 94, 0);
+}
+.project-description > h1,
+.tech-used > h1,
+.learning-outcomes > h1 {
+  color: rgb(255, 94, 0);
 }
 .project-description p {
   width: 90%;
