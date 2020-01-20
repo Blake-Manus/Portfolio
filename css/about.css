@@ -12,7 +12,7 @@
   width: 45%;
   height: 90%;
   /* background-color: rgb(233, 233, 233); */
-  color: whitesmoke;
+  color: rgb(236, 235, 235);
 }
 
 .about-professional {
@@ -64,7 +64,8 @@
   text-shadow: -1px -1px 0 rgb(6, 17, 34), 1px -1px 0 rgb(6, 17, 34),
     -1px 1px 0 rgb(6, 17, 34), 1px 1px 0 rgb(6, 17, 34),
     1px 1px 10px rgba(255, 0, 102, 0.418);
-  color: #ff0068;
+  /* color: #ff0068; */
+  color: #c51f5d;
 }
 .about-personal > hr {
   width: 90%;
@@ -76,7 +77,7 @@
     rgba(61, 255, 197, 0.2) 100%
   );
   border: 0;
-  height: 1px;
+  height: 2px;
 }
 .skills-area > hr {
   width: 90%;
@@ -88,7 +89,7 @@
     rgba(255, 0, 104, 0.2) 100%
   );
   border: 0;
-  height: 1px;
+  height: 2px;
 }
 .skills-area > h1 {
   font-size: 2.2em;
@@ -107,6 +108,11 @@
 .emphasis {
   color: rgb(255, 94, 0);
 }
+.emphasis a,
+.emphasis a:hover {
+  text-decoration: none;
+  color: rgb(255, 94, 0);
+}
 .skill-list {
   margin-left: 5%;
   font-size: 1.8em;
@@ -119,26 +125,26 @@
 }
 
 #front-end {
-  text-shadow: 0 0 2px rgb(255, 94, 0);
-  color: rgb(255, 94, 0);
+  /* text-shadow: 0 0 2px rgb(255, 94, 0);
+  color: rgb(255, 94, 0); */
   animation-duration: 5s;
   animation-fill-mode: both;
 }
 #design {
-  text-shadow: 0 0 2px rgb(255, 94, 0);
-  color: rgb(255, 94, 0);
+  /* text-shadow: 0 0 2px rgb(255, 94, 0);
+  color: rgb(255, 94, 0); */
   animation-duration: 5s;
   animation-fill-mode: both;
 }
 #software-eng {
-  text-shadow: 0 0 2px rgb(255, 94, 0);
-  color: rgb(255, 94, 0);
+  /* text-shadow: 0 0 2px rgb(255, 94, 0);
+  color: rgb(255, 94, 0); */
   animation-duration: 5s;
   animation-fill-mode: both;
 }
 #learning {
-  text-shadow: 0 0 2px rgb(255, 94, 0);
-  color: rgb(255, 94, 0);
+  /* text-shadow: 0 0 2px rgb(255, 94, 0);
+  color: rgb(255, 94, 0); */
   animation-duration: 5s;
   animation-fill-mode: both;
 }
@@ -147,7 +153,7 @@
 .fa-palette,
 .fa-tools,
 .fa-book-reader {
-  color: rgb(255, 94, 0);
+  /* color: rgb(255, 94, 0); */
 }
 
 .front-end-list > li {
@@ -169,4 +175,13 @@
   display: inline-block;
   margin-right: 3%;
   margin-top: 2%;
+}
+.fa-html5 {
+  color: rgb(255, 123, 0);
+}
+.fa-css3 {
+  color: rgb(26, 26, 224);
+}
+.fa-bootstrap {
+  color: purple;
 }

@@ -48,10 +48,14 @@
   background-color: #101f2d !important;
 }
 .viewInfo {
-  background-color: rgb(207, 76, 0);
+  /* background-color: rgb(207, 76, 0); */
+  border: 1px solid rgb(68, 68, 68) !important;
+  background-color: rgb(34, 31, 48);
+  color: rgb(226, 226, 226);
 }
 .viewInfo:hover {
-  background-color: rgb(255, 94, 0);
+  /* background-color: rgb(255, 94, 0); */
+  border: 1px solid rgb(255, 94, 0) !important;
 }
 
 .controls {
