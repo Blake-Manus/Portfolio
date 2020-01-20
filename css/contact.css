@@ -4,13 +4,15 @@
   margin-right: 10%;
   width: 80%;
   margin-top: 1%;
-  color: whitesmoke;
+  color: rgb(235, 235, 235);
 }
 .contactInfo-area {
   width: 25%;
 }
 .contactInfo-area > ul {
   font-size: 1.5rem;
+  list-style: none;
+  padding-left: 0;
 }
 .media-area {
   width: 15%;
@@ -41,7 +43,7 @@
   padding-bottom: 2%;
   font-size: 1.3rem;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(235, 235, 235);
   outline: none;
 }
 .mail-right {
@@ -54,7 +56,7 @@
   height: 80%;
   outline: none;
   resize: none;
-  background-color: whitesmoke;
+  background-color: rgb(235, 235, 235);
   font-size: 1.3rem;
 }
 
@@ -73,4 +75,60 @@ textarea:focus {
   /* padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px; */
   border: 1px solid rgba(255, 94, 0, 0.349);
+}
+
+.social-list {
+  font-size: 2.2rem;
+  text-align: center;
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+#instagramIcon {
+  color: rgb(255, 31, 31);
+}
+#instagramIcon:hover {
+  color: rgb(241, 75, 75);
+}
+
+#linkedinIcon {
+  color: rgb(64, 64, 255);
+}
+#linkedinIcon:hover {
+  color: rgb(107, 107, 255);
+}
+
+#codepenIcon {
+  color: rgb(201, 198, 198);
+}
+#codepenIcon:hover {
+  color: rgb(255, 255, 255);
+}
+
+#githubIcon {
+  color: rgb(192, 0, 192);
+}
+#githubIcon:hover {
+  color: rgb(230, 23, 230);
+}
+
+#dribbbleIcon {
+  color: rgb(204, 13, 77);
+}
+#dribbbleIcon:hover {
+  color: rgb(235, 57, 116);
+}
+
+.chat-submit-btn {
+  width: 50%;
+  background-color: rgb(255, 94, 0);
+  color: black;
+  margin-top: 2%;
+  font-size: 1.6rem;
+  border-color: rgb(80, 30, 2);
+  border-radius: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  float: right;
 }

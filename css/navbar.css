@@ -27,8 +27,11 @@
   text-decoration: none;
 }
 .navbar-main a:hover {
-  background-color: #19488f;
+  background-color: rgba(255, 94, 0, 0.432);
+  border: 1px solid rgb(255, 94, 0);
+  color: rgb(255, 94, 0);
   border-radius: 8%;
+  text-decoration: none;
 }
 .nav-home,
 .nav-about,
