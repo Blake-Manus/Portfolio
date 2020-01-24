@@ -1,9 +1,11 @@
 .text-area,
 .text-area-2 {
   font-size: 3.5em;
-  text-shadow: 0 0 2px rgb(61, 255, 197), 0 0 30px rgb(61, 255, 197),
+  /* text-shadow: 0 0 2px rgb(61, 255, 197), 0 0 30px rgb(61, 255, 197),
     0px 0px 5px rgb(61, 255, 197), 0 0 150px rgb(61, 255, 197);
-  color: rgb(61, 255, 197);
+  color: rgb(61, 255, 197); */
+  text-shadow: 0 0 2px cyan, 0 0 30px cyan, 0px 0px 5px cyan, 0 0 150px cyan;
+  color: cyan;
   animation-duration: 5s;
   animation-fill-mode: both;
 }

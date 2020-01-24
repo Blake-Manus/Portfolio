@@ -29,7 +29,7 @@
 }
 .contact-text-alt {
   /* color: rgb(255, 94, 0); */
-  color: rgb(61, 255, 197);
+  color: cyan;
 }
 .mail-form {
   display: flex;
@@ -72,10 +72,10 @@ textarea {
 
 input[type="text"]:focus,
 textarea:focus {
-  box-shadow: 0 0 5px rgb(61, 255, 197);
+  box-shadow: 0 0 5px cyan;
   /* padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px; */
-  border: 1px solid rgba(61, 255, 197, 0.178);
+  border: 1px solid rgba(0, 255, 255, 0.274);
 }
 
 .social-list {
@@ -127,7 +127,7 @@ textarea:focus {
   color: rgb(235, 235, 235);
   margin-top: 2%;
   font-size: 1.6rem;
-  border-color: rgb(61, 255, 197);
+  border-color: cyan;
   border-width: 1px;
   border-radius: 10%;
   padding-top: 2%;
@@ -135,5 +135,5 @@ textarea:focus {
   float: right;
 }
 .chat-submit-btn:hover {
-  background-color: rgba(61, 255, 197, 0.205);
+  background-color: rgba(0, 255, 255, 0.473);
 }
