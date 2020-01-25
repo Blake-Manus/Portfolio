@@ -8,7 +8,7 @@
 .about-personal {
   position: relative;
   border-radius: 12%;
-  margin-left: 5%;
+  margin-left: 5% auto;
   margin-top: 10%;
   width: 45%;
   height: 90%;
@@ -23,7 +23,7 @@
 }
 
 .skills-area {
-  width: 100%;
+  width: 80%;
   height: auto;
   color: white;
 }
@@ -155,50 +155,6 @@
   margin-right: 3%;
   margin-top: 2%;
 }
-.fa-html5 {
-  color: rgb(255, 123, 0);
-}
-.fa-css3 {
-  color: rgb(26, 26, 224);
-}
-.fa-bootstrap {
-  color: rgb(190, 2, 190);
-}
-.fa-js-square {
-  color: rgb(255, 217, 0);
-}
-.fa-react {
-  color: rgb(24, 190, 245);
-}
-
-.fa-php {
-  color: rgb(0, 68, 255);
-  font-size: 2.3rem;
-}
-
-.fa-database {
-  color: orange;
-}
-
-.fa-java {
-  color: red;
-  font-size: 2.3rem;
-}
-.fa-circle {
-  color: rgb(187, 187, 187) !important;
-}
-
-.fa-node-js {
-  color: rgb(20, 190, 20);
-}
-
-.fa-wordpress {
-  color: rgb(155, 155, 255);
-}
-
-.fa-copyright {
-  color: rgb(39, 161, 39);
-}
 
 td {
   padding-left: 8%;
@@ -212,12 +168,9 @@ td {
   .skill-list {
     margin-left: 5%;
     font-size: 1.8em;
-    /* font-weight: bold; */
-    border: 2px solid orchid;
   }
   .skill-list i {
     font-size: 1em;
-    border: 2px solid rgb(1, 201, 11);
   }
 }
 
@@ -235,11 +188,12 @@ td {
     font-size: 1em;
     border: 2px solid rgb(1, 201, 11);
   }
+  .about-container {
+    width: 100%;
+    margin-left: 5%;
+  }
 }
 
 .font-end-table i {
   color: cyan;
-}
-td {
-  border: 2px solid rgb(197, 105, 29);
 }
