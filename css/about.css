@@ -182,14 +182,14 @@ td {
   .skill-list {
     margin-left: 5%;
     font-size: 1.4em;
-    border: 2px solid orchid;
+    /* border: 2px solid orchid; */
   }
   .skill-list i {
     font-size: 1em;
     border: 2px solid rgb(1, 201, 11);
   }
   .about-container {
-    width: 100%;
+    width: 100vw;
     margin-left: 5%;
   }
 }
