@@ -2,7 +2,7 @@
   z-index: 3;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 50px;
   border: 1px solid #222;
   margin-left: auto !important;
