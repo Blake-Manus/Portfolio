@@ -35,7 +35,7 @@
 .flip-back {
   position: absolute;
   width: 100%;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   text-align: center;
 }
 .flip-back {
