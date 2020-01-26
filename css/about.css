@@ -180,7 +180,7 @@ td {
   }
   .about-personal > p {
     margin-left: 10%;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .skill-list {
     margin-left: 5%;
@@ -217,6 +217,7 @@ td {
   }
   .skill-item {
     width: 90%;
+    height: 100px;
   }
 }
 
