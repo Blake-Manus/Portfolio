@@ -9,6 +9,9 @@ lineColor = "#000000";
 var pointsArr = [], // Array of points
   FPS = 60, // Frames per second
   numPts = 230; // Number of points
+if (window.innerWidth < 400) {
+  numPts = 90;
+}
 
 for (var i = 0; i < numPts; i++) {
   //Populate Point Array
