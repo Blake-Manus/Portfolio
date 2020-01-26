@@ -175,14 +175,16 @@ td {
 }
 
 @media screen and (max-width: 719px) {
+  .about-personal {
+    margin-left: 5%;
+  }
   .about-personal > p {
-    margin-left: 2%;
+    margin-left: 10%;
     font-size: 1em;
   }
   .skill-list {
     margin-left: 5%;
     font-size: 1.4em;
-    /* border: 2px solid orchid; */
   }
   .skill-list i {
     font-size: 1em;
@@ -190,7 +192,6 @@ td {
   }
   .about-container {
     width: 100vw;
-    margin-left: 5%;
   }
 }
 
@@ -199,11 +200,9 @@ td {
 }
 
 .skill-row {
-  border: 1px solid red;
   display: flex;
 }
 .skill-item {
-  border: 1px solid green;
   width: 45%;
   height: 150px;
   text-align: center;
@@ -222,10 +221,7 @@ td {
 }
 
 .skill-item {
-  /* background-color: transparent; */
-  /* width: 200px; */
-  /* height: 90px; */
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
 }
 
 .skill-item-inner {
@@ -233,13 +229,13 @@ td {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+  -webkit-transition: transform 0.6s;
+  -webkit-transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .skill-item:hover .skill-item-inner {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .skill-item-front,
@@ -247,7 +243,7 @@ td {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .skill-item-front {
@@ -258,5 +254,5 @@ td {
 .skill-item-back {
   background-color: #2980b9;
   color: white;
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
