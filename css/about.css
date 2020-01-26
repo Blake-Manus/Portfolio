@@ -3,7 +3,7 @@
   width: 90%;
   height: 90%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .about-personal {
   position: relative;
@@ -196,4 +196,67 @@ td {
 
 .font-end-table i {
   color: cyan;
+}
+
+.skill-row {
+  border: 1px solid red;
+  display: flex;
+}
+.skill-item {
+  border: 1px solid green;
+  width: 45%;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  padding: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .skill-row {
+    display: initial;
+  }
+  .skill-item {
+    width: 90%;
+  }
+}
+
+.skill-item {
+  /* background-color: transparent; */
+  /* width: 200px; */
+  /* height: 90px; */
+  perspective: 1000px;
+}
+
+.skill-item-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill-item:hover .skill-item-inner {
+  transform: rotateY(180deg);
+}
+
+.skill-item-front,
+.skill-item-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.skill-item-front {
+  background-color: rgb(49, 43, 77);
+  color: black;
+}
+
+.skill-item-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
 }
