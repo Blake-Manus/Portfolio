@@ -247,12 +247,12 @@ td {
 }
 
 .skill-item-front {
-  background-color: rgb(49, 43, 77);
+  background-color: #a04f4f;
   color: black;
 }
 
 .skill-item-back {
-  background-color: #2980b9;
+  background-color: #537b96;
   color: white;
   -webkit-transform: rotateY(180deg);
 }
