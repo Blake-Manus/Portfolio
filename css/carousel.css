@@ -228,15 +228,15 @@
   position: absolute;
   background-color: rgb(24, 24, 24);
   width: 60%;
-  height: 80%;
+  height: 90%;
   margin: auto;
   left: 20%;
-  top: 10%;
+  top: 5%;
   border-radius: 5%;
 }
 .overlay-info {
   display: flex;
-  margin-top: 5%;
+  margin-top: 2%;
   height: 85%;
 }
 .overlay-left {
@@ -245,8 +245,9 @@
   color: white;
 }
 .overlay-right {
-  width: 50%;
-  margin-right: 5%;
+  width: 100%;
+  /* margin-right: 5%; */
+  margin-left: 5%;
   color: white;
 }
 .conduct-msg {
@@ -258,16 +259,15 @@
 
 .overlay-slideshow {
   width: 80%;
-  margin-left: 10%;
   margin-right: 10%;
-  margin-top: 3%;
+  margin-top: 1%;
   text-align: center;
 }
 /* Hide the images by default */
 .overlay-slide {
   display: none;
   width: 90%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   margin-right: 5%;
 }
 
@@ -305,18 +305,6 @@
   cursor: pointer;
 }
 
-/* .demo-link {
-  background-color: purple;
-  text-align: center;
-  width: 40%;
-  height: 7%;
-  border-radius: 1em;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 2%;
-  text-align: center;
-  cursor: pointer;
-} */
 .github-link,
 .demo-link {
   text-align: center;
@@ -364,7 +352,8 @@
 .tech-used-list > li {
   display: inline-block;
   font-size: 1.4rem;
-  padding: 1.1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .learning-outcome-list > li {
@@ -386,4 +375,43 @@
 .exit-btn:hover {
   background-color: rgb(255, 77, 77);
   cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 400px) {
+  .overlay-container {
+    position: absolute;
+    background-color: rgb(24, 24, 24);
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    left: 5%;
+    top: 5%;
+    border-radius: 5%;
+  }
+  .overlay-slide-img {
+    width: 125px;
+  }
+  .learning-outcomes {
+    display: none;
+  }
+  .tech-used {
+    display: none;
+  }
+  .project-description > p {
+    font-size: 1rem;
+    margin-right: 2%;
+    width: 100%;
+  }
+  .overlay-right {
+    /* width: 50%; */
+    margin-left: 8%;
+  }
+  .project-description > h1 {
+    font-size: 2rem;
+  }
+  .project-description {
+    margin-left: 10%;
+  }
 }
