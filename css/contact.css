@@ -142,4 +142,15 @@ textarea:focus {
   .chat-area {
     display: none;
   }
+  .media-area {
+    float: right;
+    margin-right: 13%;
+    margin-left: auto;
+  }
+  .contactInfo-area {
+    width: 55%;
+  }
+  .contact-container {
+    margin-left: 5%;
+  }
 }
