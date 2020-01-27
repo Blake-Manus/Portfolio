@@ -406,12 +406,22 @@
   }
   .overlay-right {
     /* width: 50%; */
-    margin-left: 8%;
+    margin-left: 3%;
   }
   .project-description > h1 {
     font-size: 2rem;
   }
   .project-description {
-    margin-left: 10%;
+    margin-left: 5%;
+  }
+  .overlay-prev,
+  .overlay-next {
+    padding: 10px;
+  }
+  .overlay-left {
+    width: 50%;
+  }
+  .github-link {
+    padding-top: 10%;
   }
 }
