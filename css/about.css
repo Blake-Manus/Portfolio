@@ -219,11 +219,14 @@ td {
     width: 90%;
     height: 100px;
   }
+  .skill-item-front > p {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 376px) and (max-width: 500px) {
+@media screen and (min-width: 376px) and (max-width: 575px) {
   .skill-item-front > h4 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -254,12 +257,38 @@ td {
 }
 
 .skill-item-front {
-  background-color: #a04f4f;
+  background-color: transparent;
+  border: 1.2px solid rgba(0, 255, 255, 0.555);
   color: black;
+  color: rgb(233, 233, 233);
 }
 
 .skill-item-back {
-  background-color: #537b96;
+  background-color: #1b354d;
+  border: 1.2px solid rgba(0, 255, 255, 0.555);
   color: white;
   -webkit-transform: rotateY(180deg);
+}
+.skill-item-back > p {
+  font-size: 1.3rem;
+}
+
+.fa-laptop-code,
+.fa-book-reader,
+.fa-object-group,
+.fa-users-cog {
+  font-size: 2.5rem;
+  padding: 5%;
+  color: rgb(223, 223, 223);
+}
+
+.skill-item-front > p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media screen and (min-width: 376px) and (max-width: 575px) {
+  .skill-item-front > p {
+    font-size: 0.8rem !important;
+  }
 }

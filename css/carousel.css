@@ -477,3 +477,8 @@
 .fa-lock {
   color: rgb(201, 0, 0);
 }
+
+.locked:hover {
+  background-color: transparent !important;
+  border: none !important;
+}
