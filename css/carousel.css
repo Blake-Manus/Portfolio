@@ -27,7 +27,7 @@
 .viewInfo {
   font-size: 1.4rem !important;
 }
-.item .movie-Poster img {
+.item .item-Poster img {
   margin-left: 0.75%;
   margin-right: 1%;
   /* margin-top: 0.5%; */
@@ -60,25 +60,31 @@
   border: 1px solid rgb(61, 255, 197) !important;
 }
 
-/* .controls {
-  margin-top: 20px;
-} */
+.controls {
+  padding-top: 10%;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
 
 .carousel-inner {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .carousel-control-next,
 .carousel-control-prev {
-  height: 30%;
-  position: absolute !important;
+  height: 90%;
 }
-.carousel-control-next-icon {
+/* .carousel-control-next-icon {
   margin-left: 20%;
 }
 .carousel-control-prev-icon {
   margin-right: 40%;
-}
+} */
 
 /* atbr
 */
@@ -252,7 +258,9 @@
 }
 .conduct-msg {
   text-align: center;
-  margin-top: 1%;
+  /* margin-top: 1%; */
+  margin-bottom: 1%;
+  margin-top: 5%;
   vertical-align: bottom;
   color: rgb(236, 26, 26);
 }
@@ -276,9 +284,24 @@
 .overlay-prev,
 .overlay-next {
   cursor: pointer;
+  /* position: relative; */
+  /* top: 40%; */
+  /* width: auto; */
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.overlay-prev,
+.overlay-next {
+  cursor: pointer;
   position: relative;
   top: 40%;
-  /* width: auto; */
+  width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -302,7 +325,8 @@
 /* On hover, add a black background color with a little bit see-through */
 .overlay-prev:hover .fa-angle-left,
 .overlay-next:hover .fa-angle-right {
-  color: rgb(255, 94, 0);
+  /* color: rgb(255, 94, 0); */
+  color: cyan;
   cursor: pointer;
 }
 
@@ -326,8 +350,10 @@
 }
 .github-link:hover,
 .demo-link:hover {
-  background-color: rgba(255, 94, 0, 0.562);
-  border: 1px solid rgb(255, 94, 0);
+  /* background-color: rgba(255, 94, 0, 0.562); */
+  /* border: 1px solid rgb(255, 94, 0); */
+  background-color: rgba(0, 255, 255, 0.301);
+  border: 1px solid cyan;
 }
 .project-description > h1,
 .tech-used > h1,
@@ -466,7 +492,7 @@
     display: initial;
   }
   .learning-outcome-list > li {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .learning-outcome-list {
     padding-left: 0;

@@ -8,12 +8,25 @@
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/carousel.css">
         <link rel="stylesheet" href="./css/contact.css">
+        <link rel="icon" href="./public/favicon-32x32.png">
+        <title>Online Portfolio</title>
         <script src="https://kit.fontawesome.com/c3b71d08f6.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Online portfolio of Ricky Blake Manus. Created to showcase my ongoing and completed projects.">
+        <meta name="keywords" content="Portfolio, Ricky, Blake, Manus, Ricky Manus, Blake Manus, Ricky B Manus">
+        <meta name="author" content="Blake Manus">
+        
+        <meta property="og:title" content="Ricky B. Manus Online Portfolio">
+        <meta property="og:description" content="My online portfolio to showcase my ongoing and completed projects.">
+        <meta property="og:image" content="./public/preview-page.png">
+        <meta property="og:url" content="http://www.BlakeManus.com">
+        
     </head>
     <body>
 
@@ -155,7 +168,7 @@
  
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/portfolio-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -176,7 +189,7 @@
                         </div>                     
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/cinema-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -197,7 +210,7 @@
                         </div>
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/gallery-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -218,7 +231,7 @@
                         </div>
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/arcade-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -239,7 +252,7 @@
                         </div>
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/projectSEED-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -260,7 +273,7 @@
                         </div>
                         <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="item">
-                                <div class="movie-Poster">
+                                <div class="item-Poster">
                                     <img src="./public/jasmineDragon-banner.png" class="img-responsive" alt="a" />
                                 </div>
                                 <div class="slide-info">
@@ -280,15 +293,23 @@
                             </div>
                         </div>							
                     </div>
+                    <a class="carousel-control-prev controls" href="#carousel" role="button" id="prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next controls" href="#carousel" role="button" id = "next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carousel" role="button" id="prev" data-slide="prev">
+                <!-- <a class="carousel-control-prev" href="#carousel" role="button" id="prev" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carousel" role="button" id = "next" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                </a> -->
                 </div>
                 </div>
             </div>
@@ -397,15 +418,15 @@
                                     <li>Bootstrap</li>
                                     <li>PHP</li>
                                     <li>mySQL</li>
-
+                                    <li>XAMPP</li>
                                 </ul>
                             </div>
                             <div class="learning-outcomes">
                                 <h1>Learning Outcomes</h1>
                                 <ul class="learning-outcome-list">
-                                    <li>This is the first description of what I learned doing this project.</li>
-                                    <li>This is the second description of what I learned, and how it can help market myself.</li>
-                                    <li>This is the third descrition of what I learned here, and how it applies to the workplace.</li>
+                                    <li>Gained experience with the dynamics of agile development methodology and scrum development process.</li>
+                                    <li>Learned how to functionally use SQL with mySQL database management software to manage user data.</li>
+                                    <li>Exposure to communicating design choices and their impact on both frontend and backend development.</li>
                                 </ul>
                             </div>
                         </div>
@@ -442,27 +463,31 @@
                         <div class="overlay-right">
                             <div class="project-description">
                                 <h1>Description</h1>
-                                <p> This is a template for a project description. We add all the information about the project here
-                                    that we can expand upon in the next two sections. It is a brief description, but can go slightly
-                                    indepth to processes done or technologies integrated within.
+                                <p> This goal of this project was to build a javaFX application that implemented the iTunes
+                                    Search API to grab information based on the users search query. It would then display the 
+                                    top 20 most popular album covers that contain the users search tag. The user could also hit 
+                                    the play button to cyclically replace images with others within the top 40 results.
                                 </p>
                             </div>
                             <div class="tech-used">
                                 <h1>Technologies Used</h1>
                                 <ul class="tech-used-list">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                    <li>Bootstrap</li>
-                                    <li>ReactJS</li>
+                                    <li>Java</li>
+                                    <li>JavaFX</li>
+                                    <li>iTunes Search API</li>
+                                    <li>Eclipse</li>
+                                    <li>Maven</li>
                                 </ul>
                             </div>
                             <div class="learning-outcomes">
                                 <h1>Learning Outcomes</h1>
                                 <ul class="learning-outcome-list">
-                                    <li>This is the first description of what I learned doing this project.</li>
-                                    <li>This is the second description of what I learned, and how it can help market myself.</li>
-                                    <li>This is the third descrition of what I learned here, and how it applies to the workplace.</li>
+                                    <li>Learned how to implement an API and how to parse information between user submitted form
+                                        data and data returned to the system through the API.
+                                    </li>
+                                    <li>Gained an initial understanding of Java GUI development using javaFX. </li>
+                                    <li>Expanded my ability to independently research and examine documentation on a technology or API 
+                                        that I wasn't exposed to before.</li>
                                 </ul>
                             </div>
                         </div>
@@ -501,27 +526,27 @@
                         <div class="overlay-right">
                             <div class="project-description">
                                 <h1>Description</h1>
-                                <p> This is a template for a project description. We add all the information about the project here
-                                    that we can expand upon in the next two sections. It is a brief description, but can go slightly
-                                    indepth to processes done or technologies integrated within.
+                                <p> This was my final project in my Software Development class which allowed us to implement
+                                    two of our favorite games in an arcade app. The two chosen were Minesweeper and Breakout
+                                    which provided a slower paced strategy option and a faster paced reactionary option. Each
+                                    game had 3 levels of difficulty and calculated scores for each.
                                 </p>
                             </div>
                             <div class="tech-used">
                                 <h1>Technologies Used</h1>
                                 <ul class="tech-used-list">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                    <li>Bootstrap</li>
-                                    <li>ReactJS</li>
+                                    <li>Java</li>
+                                    <li>JavaFX</li>
+                                    <li>Maven</li>
+                                    <li>Eclipse</li>
                                 </ul>
                             </div>
                             <div class="learning-outcomes">
                                 <h1>Learning Outcomes</h1>
                                 <ul class="learning-outcome-list">
-                                    <li>This is the first description of what I learned doing this project.</li>
-                                    <li>This is the second description of what I learned, and how it can help market myself.</li>
-                                    <li>This is the third descrition of what I learned here, and how it applies to the workplace.</li>
+                                    <li>Utilitze inheritance and polymorphism, and recursion in a software project.</li>
+                                    <li>Implemented more advanced interaction with javaFX GUI through eventListeners and respective handlers.</li>
+                                    <li>Plan, design, implement, test, debug, and deploy a complete object-oriented software solution in Linux/Unix environment.</li>
                                 </ul>
                             </div>
                         </div>
