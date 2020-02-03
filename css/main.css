@@ -22,17 +22,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(164, 208, 219);
+  background: rgb(69, 80, 94);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(69, 80, 94);
+  background: rgb(102, 140, 150);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(112, 139, 165);
+  background: rgb(130, 178, 190);
 }
 canvas {
   /* background: #061122;
