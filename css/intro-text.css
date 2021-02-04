@@ -9,8 +9,10 @@
   animation-duration: 5s;
   animation-fill-mode: both;
 }
+.text-area {
+    padding-left: 7.5%;
+}
 .text-area-2 {
-  padding-left: 10px;
   animation-delay: 3.5s;
 }
 .flip-container {

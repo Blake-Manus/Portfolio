@@ -364,25 +364,25 @@
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .overlay-right p {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .tech-used-list > li {
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
 
 .learning-outcome-list > li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-left: 5%;
   margin-right: 10%;
 }
@@ -492,7 +492,7 @@
     display: initial;
   }
   .learning-outcome-list > li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .learning-outcome-list {
     padding-left: 0;
